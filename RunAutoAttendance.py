@@ -12,7 +12,7 @@ import threading
 
 def selenium_start(
     selectors,
-    json_file_path = r'C:\keys\private.json',
+    json_file_path = '이메일과비밀번호입력.json',
     email_key = 'email',
     password_key = 'password',
     site_path = 'https://2023-gj-aischool.elice.io/my'
