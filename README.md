@@ -38,9 +38,9 @@
    - 다음 코드로 설치된 경로로 cmd 파일을 켜주세요.
    - 그 후 자동출석cmd.txt에서 고친 코드를 복사 붙여넣기 하면 됩니다.
 
-![image](https://github.com/rimgosu/AutoAttendance/assets/120752098/7108c613-617c-4051-8131-11ec6647d149)
+   ![image](https://github.com/rimgosu/AutoAttendance/assets/120752098/389aaca5-1ef9-4ad1-96c1-5e46b40decd2)
 
-7. *************AutoAttendence is running...************* 문구가 뜨면 정상적으로 작동하고 있는 것입니다.
+7. `*************AutoAttendence is running...*************` 문구가 뜨면 정상적으로 작동하고 있는 것입니다.
 
 ## TODO
 - AWS Lambda를 이용해 컴퓨터를 끄고도 자동으로 출석과 퇴실 버튼이 눌러지게끔 하자.
