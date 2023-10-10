@@ -12,7 +12,7 @@ import threading
 
 def selenium_start(
     selectors,
-    json_file_path = '이메일과비밀번호입력.json',
+    json_file_path = r'c:\keys\idpw입력.json',
     email_key = 'email',
     password_key = 'password',
     site_path = 'https://2023-gj-aischool.elice.io/my'
@@ -42,7 +42,12 @@ def selenium_start(
 
     time.sleep(5)
 
-    attendance_button = driver.find_element(By.CSS_SELECTOR, selectors['attendance_button_selector'])
+    try:
+        attendance_button = driver.find_element(By.XPATH, "//button[contains(text(),'출석')]")
+    except:
+        attendance_button = driver.find_element(By.XPATH, "//button[contains(text(),'퇴실')]")
+
+    print(f"attendence_button : {attendance_button.text}")
     attendance_button.click()
 
     time.sleep(5)
@@ -125,6 +130,8 @@ if __name__ == "__main__":
         'attendance_time' : (8, 51, 0), # 8시 51분
         'checkout_time' : (17, 51, 0) # 17시 51분
     }
+
+    print("*************AutoAttendence is running...*************")
 
     elice_checker = EliceCheck()
     elice_checker.start(times)

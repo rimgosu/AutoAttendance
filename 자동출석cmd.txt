@@ -1,0 +1,8 @@
+cmd에서 RunAutoAttendance.py의 절대경로를 입력해 실하면 자동으로 출석과 퇴실버튼을 누릅니다.
+
+------
+예시)
+cd C:\Users\newny\Desktop\WorkSpace\AutoAttendence
+"C:/Program Files/Python310/python.exe" c:/Users/newny/Desktop/WorkSpace/AutoAttendence/RunAutoAttendance.py
+------
+

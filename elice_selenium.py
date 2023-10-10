@@ -1,14 +1,11 @@
 from selenium import webdriver as wb
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import time
 import json
 
-
-
 def selenium_start(
     selectors,
-    json_file_path = r'C:\keys\private.json',
+    json_file_path = r'c:\keys\idpw입력.json',
     email_key = 'email',
     password_key = 'password',
     site_path = 'https://2023-gj-aischool.elice.io/my'
