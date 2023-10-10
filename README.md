@@ -58,4 +58,15 @@
 ### 2023.10.05
 - 첫 출시
 
+### 2023.10.10
+- id,pw 입력을 C:/keys/idpw입력.json으로 입력하여 보안 업그레이드
+- 엘리스의 div 구조가 변경되어, attendence_button을 XPATH로 찾습니다.
+
+```
+try:
+  attendance_button = driver.find_element(By.XPATH, "//button[contains(text(),'출석')]")
+except:
+  attendance_button = driver.find_element(By.XPATH, "//button[contains(text(),'퇴실')]")
+```
+
 
