@@ -58,7 +58,7 @@
 ### 2023.10.05
 - 첫 출시
 
-### 2023.10.10
+### [2023.10.10](https://github.com/rimgosu/AutoAttendance/tree/621cd3e6e8ddbc288714ad64d32bd05de11d34ee)
 - id,pw 입력을 C:/keys/idpw입력.json으로 입력하여 보안 업그레이드
 - 엘리스의 div 구조가 변경되어, attendence_button을 XPATH로 찾습니다.
 
