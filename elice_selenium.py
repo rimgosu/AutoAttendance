@@ -35,8 +35,12 @@ def selenium_start(
 
     time.sleep(5)
 
-    attendance_button = driver.find_element(By.CSS_SELECTOR, selectors['attendance_button_selector'])
-    print(attendance_button)
+    try:
+        attendance_button = driver.find_element(By.XPATH, "//button[contains(text(),'출석')]")
+    except:
+        attendance_button = driver.find_element(By.XPATH, "//button[contains(text(),'퇴실')]")
+
+    print(f"attendence_button : {attendance_button.text}")
     attendance_button.click()
 
     time.sleep(5)
