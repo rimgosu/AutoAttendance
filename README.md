@@ -1,4 +1,4 @@
-![image](https://github.com/rimgosu/AutoAttendance/assets/120752098/8ef59470-ee75-4d90-ac13-bc4a2490aca1)
+<img width="781" alt="image" src="https://github.com/rimgosu/AutoAttendance/assets/120752098/3ef4dd36-4c88-419e-bb1d-8b295681312c">
 
 # AutoAttendance
 
